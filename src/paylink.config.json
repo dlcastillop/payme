@@ -3,18 +3,38 @@
 
   "properties": {
     "name": "Daniel Castillo",
-    "description": "Frontend web developer and tireless creator",
+    "description": "Frontend web developer, engineer and tireless creator. Building products that make developers happy.",
     "alt": "Photo of Daniel Castillo",
     "hero": "./images/daniel-castillo.png"
   },
 
   "Social": [
-    { "label": "Email", "value": "bx-envelope", "link": "mailto:dlcastillo3015@gmail.com" },
-    { "label": "Link", "value": "bx-link", "link": "https://dlcastillop.vercel.app" },
-    { "label": "GitHub", "value": "bxl-github", "link": "https://github.com/dlcastillop" },
-    { "label": "Twitter", "value": "bxl-twitter", "link": "https://twitter.com/dlcastillop" },
-    { "label": "LinkedIn", "value": "bxl-linkedin", "link": "https://linkedin.com/in/dlcastillop" },
-    { "label": "Instagram", "value": "bxl-instagram", "link": "https://instagram.com/dlcastillop" },
+    {
+      "label": "Email",
+      "value": "bx-envelope",
+      "link": "mailto:dlcastillo3015@gmail.com"
+    },
+    { "label": "Link", "value": "bx-link", "link": "https://dlcastillop.com" },
+    {
+      "label": "GitHub",
+      "value": "bxl-github",
+      "link": "https://github.com/dlcastillop"
+    },
+    {
+      "label": "Twitter",
+      "value": "bxl-twitter",
+      "link": "https://twitter.com/dlcastillop"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "bxl-linkedin",
+      "link": "https://linkedin.com/in/dlcastillop"
+    },
+    {
+      "label": "Instagram",
+      "value": "bxl-instagram",
+      "link": "https://instagram.com/dlcastillop"
+    },
     { "label": "Discord", "value": "bxl-discord", "link": "" },
     { "label": "Facebook", "value": "bxl-facebook", "link": "" },
     { "label": "Medium", "value": "bxl-medium", "link": "" },
@@ -74,15 +94,9 @@
     },
     {
       "id": "usdt",
-      "label": "USDT",
-      "value": "",
+      "label": "USDT (TRC20)",
+      "value": "TFPqkDJaqdHxp5UiNoEvTPj7DJwkuX4A7r",
       "img": "./images/payments/usdt.svg"
-    },
-    {
-      "id": "qvapay",
-      "label": "QvaPay",
-      "value": "https://qvapay.com/payme/dlcastillop",
-      "img": "./images/payments/qvapay.svg"
     },
     {
       "id": "sol",
@@ -99,8 +113,14 @@
     {
       "id": "trx",
       "label": "Tron",
-      "value": "",
+      "value": "TFPqkDJaqdHxp5UiNoEvTPj7DJwkuX4A7r",
       "img": "./images/payments/trx.svg"
+    },
+    {
+      "id": "qvapay",
+      "label": "QvaPay",
+      "value": "https://qvapay.com/payme/dlcastillop",
+      "img": "./images/payments/qvapay.svg"
     },
     {
       "id": "xrp",
