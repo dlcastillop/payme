@@ -1,10 +1,14 @@
-import React from "react";
-
-const SocialMedia = (props) => {
-  let icon = "social-icon bx " + props.value;
+const SocialMedia = ({ value, href, label }) => {
+  let icon = "text-2xl bx " + value;
 
   return (
-    <a href={props.href} target="_blank" className="ms-2 me-2">
+    <a
+      href={href}
+      target="_blank"
+      title={label}
+      onMouseEnter={(e) => e.currentTarget.removeAttribute("title")}
+      onMouseLeave={(e) => e.currentTarget.setAttribute("title", label)}
+    >
       <i className={icon}></i>
     </a>
   );

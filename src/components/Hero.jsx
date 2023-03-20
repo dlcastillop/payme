@@ -1,12 +1,10 @@
-import React from "react";
-
-const Hero = (props) => {
+const Hero = ({ src, alt, name, description }) => {
   return (
-    <section className="d-flex flex-column align-items-center pt-2 mb-1">
-      <img src={props.src} alt={props.alt} className="mb-1 hero-image my-4" />
-      <div className="pt-3">
-        <h3 className="mb-1 text-center">{props.name}</h3>
-        <p className="text-center text-center">{props.description}</p>
+    <section className="hero text-center">
+      <div className="hero-content flex-col gap-3">
+        <img src={src} className="w-32 h-32 rounded-full" alt={alt} />
+        <h1 className="text-2xl font-bold">{name}</h1>
+        <p className="text-base">{description}</p>
       </div>
     </section>
   );
